@@ -25,16 +25,16 @@ import {
 export const videos = [
   {
     _id: uuid(),
-    title: "Hand Embroidery",
-    gif: emboidery,
-    thumbnail: handEmb,
-    views: "543K",
+    title: "Walking in the Rain",
+    gif: inrain,
+    thumbnail: paintingIcon2,
+    views: "12K",
     creator: "Sentdex",
-    created: "6 Months",
+    created: "5 Days",
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-    categoryName: "Craft Ideas",
-    videoLink: "wmT9YXuwMiQ",
+    categoryName: "Paintings",
+    videoLink: "v=kZNC6k5YVsc",
   },
 
   {
@@ -49,6 +49,19 @@ export const videos = [
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     categoryName: "Craft Ideas",
     videoLink: "SF71ks5FrKQ",
+  },
+  {
+    _id: uuid(),
+    title: "Painting using Holi Colors",
+    gif: holi,
+    thumbnail: paintingIcon1,
+    views: "1M",
+    description:
+      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+    creator: "M.F Hussain",
+    created: "2 weeks",
+    categoryName: "Paintings",
+    videoLink: "v=ryn9IKqIUQ0",
   },
   {
     _id: uuid(),
@@ -89,6 +102,34 @@ export const videos = [
     categoryName: "Best Out of Waste",
     videoLink: "K0t3BsDyldc",
   },
+
+  {
+    _id: uuid(),
+    title: "Best Of 2022 DIYs",
+    gif: diy,
+    thumbnail: fiveminCraftthumbnail,
+    views: "100K",
+    creator: "Sentdex",
+    created: "2 months",
+    description:
+      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+    categoryName: "Best Out of Waste",
+    videoLink: "v=3gJL0w3kmk0",
+  },
+
+  {
+    _id: uuid(),
+    title: "Hand Embroidery",
+    gif: emboidery,
+    thumbnail: handEmb,
+    views: "543K",
+    creator: "Sentdex",
+    created: "6 Months",
+    description:
+      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+    categoryName: "Craft Ideas",
+    videoLink: "wmT9YXuwMiQ",
+  },
   {
     _id: uuid(),
     title: "Easy Golden Sunset Poster color Painting",
@@ -104,41 +145,28 @@ export const videos = [
   },
   {
     _id: uuid(),
-    title: "Best Of 2022 DIYs",
-    gif: diy,
-    thumbnail: fiveminCraftthumbnail,
-    views: "100K",
+    title: "Easy Golden Sunset Poster color Painting",
+    gif: holi,
+    thumbnail: holi,
+    views: "1M",
     creator: "Sentdex",
-    created: "2 months",
-    description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-    categoryName: "Best Out of Waste",
-    videoLink: "v=3gJL0w3kmk0",
-  },
-  {
-    _id: uuid(),
-    title: "Walking in the Rain",
-    gif: inrain,
-    thumbnail: paintingIcon2,
-    views: "12K",
-    creator: "Sentdex",
-    created: "5 Days",
+    created: "2 years",
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     categoryName: "Paintings",
-    videoLink: "v=kZNC6k5YVsc",
+    videoLink: "sMJH58Ql1Ik",
   },
   {
     _id: uuid(),
-    title: "Painting using Holi Colors",
-    gif: holi,
+    title: "Easy Golden Sunset Poster color Painting",
+    gif: paintingIcon1,
     thumbnail: paintingIcon1,
     views: "1M",
+    creator: "Sentdex",
+    created: "2 years",
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-    creator: "M.F Hussain",
-    created: "2 weeks",
     categoryName: "Paintings",
-    videoLink: "v=ryn9IKqIUQ0",
+    videoLink: "sMJH58Ql1Ik",
   },
 ];

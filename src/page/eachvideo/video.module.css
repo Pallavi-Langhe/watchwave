@@ -16,7 +16,7 @@
 }
 .videoBtnWrapper {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin-right: 2rem;
 }
 .videoActionBtn {
@@ -25,14 +25,14 @@
   padding: 0.5rem;
   cursor: pointer;
   background-color: transparent;
-  border:none;
-  color:var(--COLOR-DEFAULT-TEXT)
+  border: none;
+  color: var(--COLOR-DEFAULT-TEXT);
 }
 .videoActionBtn:hover {
   transform: scale(1.07, 1.07);
 }
-.videoActionBtn:disabled{
-  cursor:not-allowed;
+.videoActionBtn:disabled {
+  cursor: not-allowed;
 }
 @media only screen and (max-width: 768px) {
   .iframe {

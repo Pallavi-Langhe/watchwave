@@ -7,8 +7,8 @@ import { useDocumentTitle } from "../../functions";
 export const Login = () => {
   useDocumentTitle("Login");
   const formObj = {
-    email: "",
-    password: "",
+    email: "pallavi@gmail.com",
+    password: "pallavi123",
   };
   const [formData, setFormData] = useState(formObj);
   const [type, setType] = useState("password");
@@ -23,7 +23,7 @@ export const Login = () => {
 
   return (
     <div className={styles.formWrapper}>
-      <h2 className="mb-lg">Login Now:</h2>
+      <h2 className="mb-lg ">Login Now</h2>
       <form className={styles.formContainer}>
         <input
           type="email"

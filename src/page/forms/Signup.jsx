@@ -2,7 +2,7 @@ import styles from "./form.module.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../../context/auth-context";
-import { useToast } from "../../context/toast-context";
+// import { useToast } from "../../context/toast-context";
 import { useDocumentTitle } from "../../functions";
 export const Signup = () => {
   useDocumentTitle("signup");
@@ -15,7 +15,7 @@ export const Signup = () => {
   const [type, setType] = useState("password");
   const [formData, setFormData] = useState(formObj);
   const [confirmPassword, setConfirmPassword] = useState("");
-  const { setToastVal } = useToast();
+  // const { setToastVal } = useToast();
   const { signupHandler } = useAuth();
   const submitHandler = (e) => {
     e.preventDefault();
@@ -28,7 +28,7 @@ export const Signup = () => {
     setFormData((data) => ({ ...data, [e.target.name]: e.target.value }));
   return (
     <div className={styles.formWrapper}>
-      <h2 className="mb-lg">Signup Now:</h2>
+      <h2 className="mb-lg">Signup Now</h2>
       <form className={styles.formContainer}>
         <input
           type="text"

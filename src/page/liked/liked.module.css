@@ -22,7 +22,7 @@
 .videoDetail {
   height: 40%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .videoThumbnail {
@@ -33,7 +33,7 @@
   border-radius: 50%;
 }
 .videoTitle {
-  text-align: start;
+  text-align: flex-start;
   font-size: medium;
 }
 .views {

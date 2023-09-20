@@ -6,7 +6,7 @@
 }
 .formContainer {
   padding: 1rem 0;
-  margin: 5rem 0;
+  margin: 2.6rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,6 +22,7 @@
   background-color: var(--COLOR-BACKGROUND-LIGHTER);
   color: var(--COLOR-PRIMARY);
   font-weight: 600;
+  border-radius: 1.2rem;
 }
 .submitBtn {
   margin: 1.5rem 0rem 0rem 0rem;

@@ -1,8 +1,8 @@
 :root {
-  --COLOR-BACKGROUND: #010203;
-  --COLOR-BACKGROUND-LIGHTER: #1b1b1b;
-  --COLOR-PRIMARY: #ff8a8a;
-  --COLOR-DEFAULT-TEXT: #fff;
+  --COLOR-BACKGROUND: #fff;
+  --COLOR-BACKGROUND-LIGHTER: #e7e2f3;
+  --COLOR-PRIMARY: #4a3794;
+  --COLOR-DEFAULT-TEXT: #000;
 }
 * {
   padding: 0;
@@ -32,8 +32,6 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-
-
 }
 .aside {
   width: 20vw;
@@ -62,7 +60,7 @@ body {
 .pass {
   top: 24rem;
 }
-.bottom-nav{
+.bottom-nav {
   display: none;
 }
 @media only screen and (max-width: 768px) {
@@ -86,7 +84,7 @@ body {
     width: 100vw;
     text-align: center;
   }
-  .bottom-nav{
+  .bottom-nav {
     display: block;
     grid-area: bottomNav;
   }
