@@ -1,0 +1,93 @@
+:root {
+  --COLOR-BACKGROUND: #010203;
+  --COLOR-BACKGROUND-LIGHTER: #1b1b1b;
+  --COLOR-PRIMARY: #ff8a8a;
+  --COLOR-DEFAULT-TEXT: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--COLOR-BACKGROUND);
+}
+.App {
+  color: var(--COLOR-DEFAULT-TEXT);
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    "nav nav nav nav"
+    "aside main main main"
+    "... main main main ";
+}
+
+.navbar {
+  grid-area: nav;
+  max-height: 30rem;
+  color: var(--COLOR-PRIMARY);
+  width: 99%;
+  border-bottom: 3px solid var(--COLOR-BACKGROUND-LIGHTER);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+.aside {
+  width: 20vw;
+  grid-area: aside;
+  height: 80vh;
+  background-color: var(--COLOR-BACKGROUND);
+  border-right: 2px solid var(--COLOR-BACKGROUND-LIGHTER);
+  min-height: 50vh;
+}
+.active {
+  color: var(--COLOR-PRIMARY);
+  border-bottom: 2px solid var(--COLOR-BACKGROUND-LIGHTER);
+}
+
+.main {
+  grid-area: main;
+  width: 70vw;
+}
+.eye {
+  position: fixed;
+  cursor: pointer;
+}
+.eye {
+  top: 18.1rem;
+}
+.pass {
+  top: 24rem;
+}
+.bottom-nav{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .App {
+    grid-template-areas:
+      "nav"
+      "main"
+      "bottomNav";
+  }
+  .aside {
+    display: block;
+    position: fixed;
+    top: 13vh;
+    z-index: 3;
+    width: 50%;
+    min-height: 100vh;
+    font-size: 2rem;
+    transition: all 500ms linear;
+  }
+  .main {
+    width: 100vw;
+    text-align: center;
+  }
+  .bottom-nav{
+    display: block;
+    grid-area: bottomNav;
+  }
+}
