@@ -9,7 +9,7 @@
 ## **How to install the Watchwave and run locally ?**
 
 ```
-$ git clone https://github.com/Pallavi-Langhe/book_shelf.git
+$ git clone https://github.com/Pallavi-Langhe/watchwave.git
 $ cd watchwave
 $ npm install
 $ npm start
@@ -21,17 +21,15 @@ $ npm start
   - User signup/login
   - User logout
   - Demo login
-- Cart Management
-- Wishlist Management
-- Product Listing page with several filters and sort by price
-- Search implementation with debounce
-- Single Product Page
-- Apply coupon
-- Address management
-- Payment integration through Razorpay
-- Image magnifier for product
-- Profile page with order and address tab
-- completely responsive
+- This website is completely responsive
+- Have simple but elegant design
+- User friendly, easy to use
+- Have single video page
+- Create and delete multiple playlists, add and remove videos to muliple playlist
+- Add to watch later, add to like history management
+- Remove from watch later, clear history, like videos
+- Private and public routes
+- Profile page
 
 
 ## **Tech stack:**
