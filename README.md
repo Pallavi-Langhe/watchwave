@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="https://res.cloudinary.com/dv8400fc2/image/upload/v1695732180/E-commerce/bookshelf_tggh2z.png" width="500" alt="logo"/>
+  
+  # [E-commerce website for book readers](https://watchwave.vercel.app/)
+    
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **How to install the Watchwave and run locally ?**
 
-## Available Scripts
+```
+$ git clone https://github.com/Pallavi-Langhe/book_shelf.git
+$ cd book_shelf
+$ npm install
+$ npm start
+```
 
-In the project directory, you can run:
+## **Features -**
 
-### `npm start`
+- Authentication:
+  - User signup/login
+  - User logout
+  - Demo login
+- Cart Management
+- Wishlist Management
+- Product Listing page with several filters and sort by price
+- Search implementation with debounce
+- Single Product Page
+- Apply coupon
+- Address management
+- Payment integration through Razorpay
+- Image magnifier for product
+- Profile page with order and address tab
+- completely responsive
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Tech stack:**
+- Javascript
+- ReactJs
+- ReactRouter
+- Context API
+- font-awesome
+- mockbee
+- vercel
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Demo -**
 
-### `npm run build`
+![watchwave](https://github.com/Pallavi-Langhe/watchwave/assets/91686147/c1258dbe-fdc7-4125-bfda-f7ab042e95b9)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
