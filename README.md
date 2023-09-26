@@ -1,7 +1,8 @@
 <div align="center">
-  <img src="https://res.cloudinary.com/dv8400fc2/image/upload/v1695732180/E-commerce/bookshelf_tggh2z.png" width="500" alt="logo"/>
-  
-  # [E-commerce website for book readers](https://watchwave.vercel.app/)
+
+  ![watchwave_logo](https://github.com/Pallavi-Langhe/watchwave/assets/91686147/85859c67-cf9e-4d2b-917e-f689b90d814a)
+
+  # [Watchwave is a video Library focused mainly on art and craft videos.](https://watchwave.vercel.app/)
     
 </div>
 
@@ -9,7 +10,7 @@
 
 ```
 $ git clone https://github.com/Pallavi-Langhe/book_shelf.git
-$ cd book_shelf
+$ cd watchwave
 $ npm install
 $ npm start
 ```
